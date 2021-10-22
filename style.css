@@ -75,6 +75,8 @@ a {
 
 p {
   margin-top: 2rem;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 ul {
@@ -87,4 +89,48 @@ ul {
   gap: 0.5rem;
 
   justify-content: center;
+}
+
+.youtube {
+  transition: 0.2s;
+}
+
+.youtube:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.instagram {
+  transition: 0.2s;
+}
+
+.instagram:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.facebook {
+  transition: 0.2s;
+}
+
+.facebook:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.twitter {
+  transition: 0.2s;
+}
+
+.twitter:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
 }
